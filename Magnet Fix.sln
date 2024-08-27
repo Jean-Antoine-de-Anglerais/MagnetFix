@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagnetFix_Test_BepInEx", "MagnetFix_Test_BepInEx\MagnetFix_Test_BepInEx.csproj", "{8A0D16FF-D49B-4A42-BB04-F0A817B573B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagnetFix_Test_NativeModloader", "MagnetFix_Test_NativeModloader\MagnetFix_Test_NativeModloader.csproj", "{0D507CFB-7311-42CD-97CA-5D6975FD12B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A0D16FF-D49B-4A42-BB04-F0A817B573B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A0D16FF-D49B-4A42-BB04-F0A817B573B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A0D16FF-D49B-4A42-BB04-F0A817B573B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A0D16FF-D49B-4A42-BB04-F0A817B573B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D507CFB-7311-42CD-97CA-5D6975FD12B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D507CFB-7311-42CD-97CA-5D6975FD12B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D507CFB-7311-42CD-97CA-5D6975FD12B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D507CFB-7311-42CD-97CA-5D6975FD12B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B16C6E8-82BB-4C96-B380-A69725100201}
+	EndGlobalSection
+EndGlobal
