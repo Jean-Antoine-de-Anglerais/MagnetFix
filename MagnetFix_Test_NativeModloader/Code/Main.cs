@@ -14,8 +14,11 @@ namespace MagnetFix_Test_NativeModloader
         {
             if (global::Config.gameLoaded && !_initialized)
             {
-                harmony.Patch(AccessTools.Method(typeof(Magnet), "pickupUnits"),
-                prefix: new HarmonyMethod(AccessTools.Method(typeof(Patches), "pickupUnits_Prefix")));
+                //harmony.Patch(AccessTools.Method(typeof(Magnet), "pickupUnits"),
+                //prefix: new HarmonyMethod(AccessTools.Method(typeof(Patches), "pickupUnits_Prefix")));
+
+                harmony.Patch(AccessTools.Method(typeof(Magnet).GetNestedType("<>c__DisplayClass12_0", BindingFlags.NonPublic), "<pickupUnits>b__0"),
+                transpiler: new HarmonyMethod(AccessTools.Method(typeof(Patches), "pickupUnits_Transpiler")));
 
                 _initialized = true;
             }
