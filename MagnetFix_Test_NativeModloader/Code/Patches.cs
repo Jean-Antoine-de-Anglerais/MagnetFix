@@ -20,7 +20,9 @@ namespace MagnetFix_Test_NativeModloader
                 {
                     // Console.WriteLine(MethodBase.GetCurrentMethod().Name + ": FOUNDED 1");
 
-                    codes[i] = new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(StaticStuff), nameof(StaticStuff.isInsideSomething)));
+                    // codes[i] = new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(StaticStuff), nameof(StaticStuff.isInsideSomething)));
+
+                    codes[i] = new CodeInstruction(OpCodes.Ldfld, AccessTools.Field(typeof(ActorBase), "is_inside_boat"));
                 }
 
                 // else
