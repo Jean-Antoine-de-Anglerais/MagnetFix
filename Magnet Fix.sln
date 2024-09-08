@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagnetFix_Test_BepInEx", "M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagnetFix_Test_NativeModloader", "MagnetFix_Test_NativeModloader\MagnetFix_Test_NativeModloader.csproj", "{0D507CFB-7311-42CD-97CA-5D6975FD12B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagnetFix_NativeModloader", "MagnetFix_NativeModloader\MagnetFix_NativeModloader.csproj", "{593A8EE3-E7E7-4DAD-9B31-CA2D4BC81182}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagnetFix_BepInEx", "MagnetFix_BepInEx\MagnetFix_BepInEx.csproj", "{5879E537-FC90-4795-914E-D9A381B631B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagnetFix_NCMS", "MagnetFix_NCMS\MagnetFix_NCMS.csproj", "{D0A1A2CB-C2B5-484C-8F3F-039674BA408B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +27,18 @@ Global
 		{0D507CFB-7311-42CD-97CA-5D6975FD12B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D507CFB-7311-42CD-97CA-5D6975FD12B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D507CFB-7311-42CD-97CA-5D6975FD12B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{593A8EE3-E7E7-4DAD-9B31-CA2D4BC81182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{593A8EE3-E7E7-4DAD-9B31-CA2D4BC81182}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{593A8EE3-E7E7-4DAD-9B31-CA2D4BC81182}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{593A8EE3-E7E7-4DAD-9B31-CA2D4BC81182}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5879E537-FC90-4795-914E-D9A381B631B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5879E537-FC90-4795-914E-D9A381B631B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5879E537-FC90-4795-914E-D9A381B631B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5879E537-FC90-4795-914E-D9A381B631B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0A1A2CB-C2B5-484C-8F3F-039674BA408B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0A1A2CB-C2B5-484C-8F3F-039674BA408B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0A1A2CB-C2B5-484C-8F3F-039674BA408B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0A1A2CB-C2B5-484C-8F3F-039674BA408B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

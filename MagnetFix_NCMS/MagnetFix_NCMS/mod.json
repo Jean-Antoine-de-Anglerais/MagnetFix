@@ -1,0 +1,8 @@
+{
+  "name": "Magnet Fix",
+  "author": "Jean-Antoine d'Anglerais (le_ombre)",
+  "version": "4.0.0.0",
+  "targetGameBuild": 558,
+  "description": "You will now be able to get creatures from their homes",
+  "iconPath": "icon.png"
+}
