@@ -13,7 +13,7 @@ namespace MagnetFix_NCMS
         void Awake()
         {
             harmony.Patch(AccessTools.Method(typeof(Magnet).GetNestedType("<>c__DisplayClass12_0", BindingFlags.NonPublic), "<pickupUnits>b__0"),
-            transpiler: new HarmonyMethod(AccessTools.Method(typeof(Patches), "pickupUnits_Transpiler")));        
+            transpiler: new HarmonyMethod(AccessTools.Method(typeof(Patches), "pickupUnits_Transpiler")));
         }
     }
 }

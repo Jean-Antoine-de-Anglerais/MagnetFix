@@ -1,7 +1,6 @@
-﻿using HarmonyLib;
+﻿using BepInEx;
+using HarmonyLib;
 using System.Reflection;
-using UnityEngine;
-using BepInEx;
 
 namespace MagnetFix_BepInEx
 {
