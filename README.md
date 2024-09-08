@@ -4,4 +4,5 @@ This small mod with a short, clear and concise name (unlike the names of all my 
 
 You can also find the mod on:
 GameBanana: https://gamebanana.com/mods/540923
+
 STEAM Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3327070814
