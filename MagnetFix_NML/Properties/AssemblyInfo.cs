@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
 // связанные со сборкой.
-[assembly: AssemblyTitle("MagnetFix_Test_BepInEx")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Magnet Fix")]
+[assembly: AssemblyDescription("You will now be able to get creatures from their homes")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("MagnetFix_Test_BepInEx")]
+[assembly: AssemblyCompany("Jean-Antoine d'Anglerais (le_ombre)")]
+[assembly: AssemblyProduct("MagnetFix_NCMS")]
 [assembly: AssemblyCopyright("Copyright ©  2024")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID служит для идентификации библиотеки типов, если этот проект будет видимым для COM
-[assembly: Guid("8a0d16ff-d49b-4a42-bb04-f0a817b573b8")]
+[assembly: Guid("d0a1a2cb-c2b5-484c-8f3f-039674ba408b")]
 
 // Сведения о версии сборки состоят из указанных ниже четырех значений:
 //
@@ -31,5 +31,5 @@ using System.Runtime.InteropServices;
 // Можно задать все значения или принять номера сборки и редакции по умолчанию 
 // используя "*", как показано ниже:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("5.0.0.0")]
+[assembly: AssemblyFileVersion("5.0.0.0")]
